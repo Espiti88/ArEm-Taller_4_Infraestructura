@@ -25,9 +25,9 @@ Durante la sesión:
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado final en draw.io | Nicolas Ortiz | 08/08 |
-| Redacción del informe     | Samuel Espitia | 10/08 |
-| Identificación de riesgos y propuesta de mitigación | Edwin Gutierrez | 12/08 |
+| Modelado final en draw.io | Nicolas Ortiz | 08/09 |
+| Redacción del informe     | Samuel Espitia | 10/09 |
+| Identificación de riesgos y propuesta de mitigación | Edwin Gutierrez | 12/09 |
 
 ---
 
