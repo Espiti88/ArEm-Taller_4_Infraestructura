@@ -1,7 +1,7 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller X - Taller-04-infraestructura-AREM
+Taller-04-infraestructura-AREM
 
 ## 👥 Integrantes del equipo
 
@@ -40,22 +40,44 @@ En el proceso de construcción del modelo se asumió que la información proporc
 
 ## 📈 Diagrama final entregado
 
-### Vista de contexto
+### Vista de infraestructura
 
-![Mapa de infraestrutura](mapa-final.png)
+![mapa-final](mapa-final.png)
 
 
 ## 🔍 Investigación complementaria
-### Tema investigado:
-(Ej: Buenas prácticas BPMN, comparación TOGAF vs C4, principios de seguridad STRIDE, etc.)
+### Tema investigado:  Buenas prácticas de arquitectura de infraestructura (cloud, on-premise, híbrida).
+
+•  Definir claramente los objetivos del negocio y criterios para decidir qué cargas de trabajo deben estar en la nube, cuáles on-premises o híbridas. Esto incluye aspectos como latencia, cumplimiento regulatorio, seguridad y costos. 
+•  Establecer una gobernanza unificada: políticas, roles y procedimientos que se apliquen tanto en entornos locales como en la nube, para mantener consistencia en seguridad, cumplimiento y gestión. 
+•  Utilizar herramientas y procesos comunes o compatibles en ambos entornos (on-premise y cloud) para administración, monitorización, autenticación y despliegue. Esto facilita interoperabilidad, despliegue uniforme y reduce errores. 
+•  Seguridad integral: aplicar controles como cifrado de datos en tránsito y en reposo, un modelo de identidad único (IAM), principio de privilegio mínimo, monitoreo continuo, auditorías regulares. 
+•  Alta disponibilidad, resiliencia y recuperación ante desastres: asegúrate de que la arquitectura soporte fallos, con redundancia, backups y procedimientos de recuperación probados. 
+•  Optimización de costos: monitorear uso de recursos, evitar sobre-aprovisionamiento, usar tarifas reservadas o instancias según demanda, apagar recursos inactivos, etc. 
+•  Planificación de red y conectividad: establecer conexiones seguras, de bajo latencia entre la red local y la nube (VPN, líneas dedicadas, etc.), definir redes virtuales, segmentación, etc. 
+•  Hacer pruebas constantes: no solo al inicio, sino testeos de rendimiento, pruebas de recuperación, validación de seguridad, simulaciones de fallos. Esto ayuda a detectar puntos débiles anticipadamente.
+
 
 ### Resumen:
-Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
+En la investigación realizada sobre buenas prácticas de arquitectura de infraestructura en entornos cloud, on-premise e híbridos, se identificó que un aspecto fundamental es alinear la tecnología con los objetivos del negocio. Para ello, se recomienda definir criterios claros que determinen qué cargas de trabajo se ejecutan en la nube, cuáles permanecen en servidores locales y cuáles se gestionan bajo un modelo híbrido. Otro elemento central es la gobernanza unificada, que implica establecer políticas, roles y procedimientos consistentes para la gestión de recursos, la seguridad y el cumplimiento normativo, sin importar el entorno donde se ubiquen los sistemas.
+
+Asimismo, la literatura consultada enfatiza la importancia de contar con controles de seguridad integrales, como el cifrado de datos, la gestión centralizada de identidades y accesos (IAM), la aplicación del principio de privilegio mínimo y el monitoreo continuo. Se destaca también la necesidad de planificar adecuadamente la conectividad entre la nube y los sistemas locales, garantizando baja latencia y comunicación segura mediante redes virtuales, VPN o enlaces dedicados.
+
+Finalmente, se recomienda implementar prácticas que aseguren la resiliencia y la optimización de costos. Esto incluye la creación de arquitecturas con alta disponibilidad, planes de recuperación ante desastres, pruebas constantes de rendimiento y seguridad, así como mecanismos de control para evitar sobre-aprovisionamiento y gastos innecesarios en recursos. Estas prácticas constituyen un marco de referencia sólido para el diseño y gestión eficiente de infraestructuras modernas.
+
+La revisión de buenas prácticas en arquitecturas de infraestructura resulta pertinente al trabajo realizado, ya que permite contrastar el modelo actual del área de adquisiciones con lineamientos ampliamente aceptados en el ámbito tecnológico. El diagrama elaborado refleja una infraestructura que combina servicios en la nube (Oracle Cloud) y recursos locales (SharePoint y bases de datos), lo cual se alinea con un enfoque híbrido. En este sentido, prácticas como la gobernanza unificada, la seguridad integral y la planificación de conectividad ofrecen un marco de referencia que puede guiar futuras mejoras, garantizando que la arquitectura no solo cumpla con las necesidades operativas actuales, sino que también evolucione hacia estándares de mayor resiliencia, seguridad y eficiencia.
 
 ## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
+- [1] New Relic. Hybrid Cloud Deployment Models and Examples. 2023. Disponible en: https://newrelic.com/de/blog/best-practices/hybrid-cloud-deployment-models-examples
+
+- [2] Cloudian. Hybrid Cloud Infrastructure: 6 Components and How to Put Them Together. 2024. Disponible en: https://cloudian.com/guides/hybrid-cloud/hybrid-cloud-infrastructure-6-components-putting-them-together
+
+- [3] Cyscale. Hybrid Cloud Best Practices: Security, Compliance and Cost Management. 2023. Disponible en: https://cyscale.com/blog/hybrid-cloud-best-practices
+
+- [4] Amazon Web Services (AWS). Hybrid Cloud Best Practices – Prescriptive Guidance. 2024. Disponible en: https://docs.aws.amazon.com/prescriptive-guidance/latest/hybrid-cloud-best-practices/introduction.html
+
+- [5] Aptum. Hybrid Cloud: Best Practices for Modern Enterprises. 2022. Disponible en: https://aptum.com/knowledge-center/hybrid-cloud
 
 ---
 
-_Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
+_Este documento hace parte de la entrega del taller Taller-04-infraestructura-AREM del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
